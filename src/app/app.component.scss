@@ -1,0 +1,44 @@
+// .app-container{
+//     position: relative;
+//     top: 50%;
+//   transform: translateY(-50%);
+//     .login-box{
+//         top: 50%;
+//         left: calc(50% - 200px);
+//         width: 400px;
+//         height: 400px;
+//         position: absolute;
+//     }
+// }
+
+
+.app-container {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  background-color: rgb(255, 255, 200);
+
+  .login-box {
+    background-color: white;
+    position: absolute;
+    top: calc(50% - 200px);
+    left: calc(50% - 200px);
+    width: 400px;
+    height: 400px;
+    text-align: center;
+
+    input {
+      margin: 10px;
+    }
+
+  }
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
